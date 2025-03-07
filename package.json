@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "prisma generate",
     "migrate": "prisma migrate dev",
     "view:db": "prisma studio",
     "dev": "node --watch app.js",
