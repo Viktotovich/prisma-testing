@@ -6,7 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "prisma generate",
     "migrate": "prisma migrate dev",
+    "update:db": "prisma db pull",
     "view:db": "prisma studio",
+    "format:db": "prisma format",
     "dev": "node --watch app.js",
     "build:css": "postcss src/css/styles.css -o public/css/styles.css",
     "watch:css": "postcss src/css/styles.css -o public/css/styles.css --watch"
