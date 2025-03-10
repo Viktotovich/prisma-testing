@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "prisma generate",
+    "generate:quick": "prisma db push",
     "migrate": "prisma migrate dev",
     "update:db": "prisma db pull",
     "view:db": "prisma studio",
